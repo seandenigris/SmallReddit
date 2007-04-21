@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SRModelBase",
+	"category" : "SmallReddit-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"author",
+		"body",
+		"comments",
+		"createdOn"
+	],
+	"name" : "SRComment",
+	"type" : "normal"
+}

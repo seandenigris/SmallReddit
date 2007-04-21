@@ -1,0 +1,1 @@
+I will register and authenticate a newly registered user

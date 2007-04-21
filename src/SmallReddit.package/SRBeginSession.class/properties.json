@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "rjl 4/20/2007 23:44",
+	"super" : "WATask",
+	"category" : "SmallReddit-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SRBeginSession",
+	"type" : "normal"
+}

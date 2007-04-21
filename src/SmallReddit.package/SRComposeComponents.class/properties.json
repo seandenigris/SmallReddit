@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "rjl 4/20/2007 23:46",
+	"super" : "SRComponent",
+	"category" : "SmallReddit-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"list"
+	],
+	"name" : "SRComposeComponents",
+	"type" : "normal"
+}

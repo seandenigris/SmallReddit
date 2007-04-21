@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "SRModelBase",
+	"category" : "SmallReddit-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"url",
+		"body",
+		"points",
+		"comments",
+		"createdOn",
+		"submitter"
+	],
+	"name" : "SREntry",
+	"type" : "normal"
+}

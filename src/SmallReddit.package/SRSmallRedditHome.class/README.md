@@ -1,0 +1,1 @@
+I'm the front page where all the components are displayed
