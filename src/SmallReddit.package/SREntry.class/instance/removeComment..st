@@ -1,4 +1,6 @@
 accessing collaboration
-removeComment: aComment
+removeComment: aComment 
+"force my comments to lazy load before accessing inst var directly,
+	since removing from a copy via the comments accessor won't work"
 	self comments.
-	^comments remove: aComment
+	^ comments remove: aComment

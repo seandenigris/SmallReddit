@@ -1,4 +1,7 @@
 actions
-likedIt: anArticle
+likedIt: anArticle 
 	anArticle addPoint.
-	self liked add: anArticle 
+	"force my liked to lazy load before accessing inst var directly,
+	since adding to a copy via the liked accessor won't work"
+	self liked.
+	liked add: anArticle

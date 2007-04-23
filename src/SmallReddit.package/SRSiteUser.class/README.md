@@ -1,0 +1,1 @@
+I am a user of the SmallReddit application. I know my username and passord. liked and hated are lists of the entries (SREntry) that I did and did not like.

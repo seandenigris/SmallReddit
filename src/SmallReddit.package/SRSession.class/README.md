@@ -1,0 +1,1 @@
+I am a seaside session, I know about the logged-in user.
