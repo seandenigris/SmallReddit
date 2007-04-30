@@ -12,7 +12,7 @@ renderBodyOn: html
 								"these actions are so trivial I did them inline instead of as seperate methods"
 								ifFalse:[html anchor callback:[self session user likedIt: each]; with: ' + '.
 										html anchor callback:[self session user hatedIt: each]; with: ' - '].
-							html text: each submitter asString, ' ', (TimeStamp now - each createdOn) ago; text: ' '; text: each points;
+							html text: each submitter asString, ' ', (DateAndTime now - each createdOn) ago; text: ' '; text: each points;
 								 text: ' points  '.
 							each totalComments = 0
 								ifTrue: [html anchor

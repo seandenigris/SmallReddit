@@ -9,5 +9,5 @@ addCommentTo: aCommentable
 	
 	"if magritte returns an actual object, we know the object was updated successfully, so we'll set the author to the currently logged in user and add the comment to the commentable object, which could be either an entry or another comment"
 	comment ifNotNil: 
-		[comment author: self session user; createdOn: TimeStamp now.
+		[comment author: self session user; createdOn: DateAndTime now.
 		aCommentable addComment: comment]

@@ -3,7 +3,7 @@ renderCommentsFor: aComment on: html
 	html div class: #comment;
 		
 		with: [
-			html div: aComment author asString, ' ', (TimeStamp now - aComment createdOn) ago.
+			html div: aComment author asString, ' ', (DateAndTime now - aComment createdOn) ago.
 			html text: aComment body.
 			html div:[
 			html anchor
