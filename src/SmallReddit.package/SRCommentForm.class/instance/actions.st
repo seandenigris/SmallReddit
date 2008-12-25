@@ -1,3 +1,3 @@
 queries
 actions
-	^#(submit)
+	^#(submit cancel)
