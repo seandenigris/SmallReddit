@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "rjl 4/20/2007 23:47",
+	"super" : "SSForm",
+	"category" : "SmallReddit-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"userName",
+		"password"
+	],
+	"name" : "SRLoginForm",
+	"type" : "normal"
+}

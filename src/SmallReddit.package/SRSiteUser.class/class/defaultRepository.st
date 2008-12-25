@@ -1,3 +1,0 @@
-defaults
-defaultRepository
-	^Dictionary

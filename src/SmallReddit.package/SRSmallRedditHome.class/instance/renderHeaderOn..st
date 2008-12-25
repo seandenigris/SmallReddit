@@ -1,5 +1,21 @@
 rendering
 renderHeaderOn: html 
-	html heading: 'Small Reddit' level: 1.
-	html heading: 'A Seaside Sample Application' level: 3.
-	html anchor on: #submitArticle of: self
+	html heading level1 with: 'Small Reddit'.
+	html heading level3 with: 'A Seaside Sample Application'.
+	self session user isNull 
+		ifTrue: 
+			[ html anchor 
+				on: #register
+				of: self.
+			html text: ' | '.
+			html anchor 
+				on: #login
+				of: self ]
+		ifFalse: 
+			[ html anchor 
+				on: #submitArticle
+				of: self.
+			html text: ' | '.
+			html anchor
+				callback: [ self session user: nil ] ;
+				with: 'Logout' ]

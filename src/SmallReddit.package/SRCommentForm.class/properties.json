@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SSForm",
+	"category" : "SmallReddit-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SRCommentForm",
+	"type" : "normal"
+}

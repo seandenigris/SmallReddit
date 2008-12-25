@@ -1,9 +1,8 @@
 actions
 addCommentTo: aCommentable 
 	| comment |
-	comment := self 
-				call: ((SRComment descriptionBody asContainer asComponentOn: SRComment new) 
-						addValidatedForm; addMessage: 'Submit Comment';yourself).
+	comment := self call: (SRCommentForm model: SRComment new).
 	comment ifNotNil: 
-			[comment author: self session user.
-			aCommentable addComment: comment]
+		[ comment author: self session user.
+		aCommentable addComment: comment.
+		entry save ]

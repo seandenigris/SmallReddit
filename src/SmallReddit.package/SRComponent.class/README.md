@@ -1,1 +1,0 @@
-I am a project level base class for all this project components.  I implement a simple validation system used by the login and register controls to demonstrate Seaside form building capabilities

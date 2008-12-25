@@ -1,3 +1,3 @@
 accessing
 user
-	^user
+	^ user ifNil: [ user := SRSiteUserNull new ]

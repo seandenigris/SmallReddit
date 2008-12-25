@@ -1,1 +1,0 @@
-SRModelBase is a common superclass for entries, comments, and users. For each subclass there is a global repository that stores instances, giving a simple in-image persistence mechanism. Overwrite the #defaultRepository class method to get a different class for the repository, default is OrderedCollection.

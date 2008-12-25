@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "MatthiasBerth 4/21/2007 22:07",
-	"super" : "SRModelBase",
+	"super" : "Object",
 	"category" : "SmallReddit-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SRSiteUser",
+	"category" : "SmallReddit-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SRSiteUserNull",
+	"type" : "normal"
+}

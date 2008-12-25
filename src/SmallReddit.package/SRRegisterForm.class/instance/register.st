@@ -1,0 +1,4 @@
+actions
+register
+	self commit
+	

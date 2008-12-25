@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "rjl 4/20/2007 23:48",
-	"super" : "SRComponent",
+	"super" : "SSComponent",
 	"category" : "SmallReddit-Views",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,3 +1,3 @@
 accessing
 points
-	^ points ifNil:[points := 1]
+	^ points ifNil:[points := 0]

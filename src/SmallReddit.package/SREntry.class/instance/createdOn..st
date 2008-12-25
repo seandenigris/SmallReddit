@@ -1,3 +1,3 @@
 accessing
-createdOn: aTimestamp
-	createdOn := aTimestamp 
+createdOn: aDateTime
+	createdOn := aDateTime
