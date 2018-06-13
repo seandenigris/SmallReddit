@@ -1,8 +1,8 @@
 initialization
 initialize
 	"self initialize"
-	"it's a good idea to programatically create your application and it's configuration so it'll set itself up in any new image you load it into, you will get tired of doing this manually from /seaside/config"
+	"It's a good idea to programmatically register your application and it's configuration so it'll set itself up in any new image you load it into. Otherwise, you will get tired of doing this manually from /seaside/config!"
 	| app |
-	app := self registerAsApplication: 'smallReddit'.
+	app := WAAdmin register: self asApplicationAt: 'smallReddit'.
 	app preferenceAt: #sessionClass put: SRSession.
 	app libraries add: SULibrary

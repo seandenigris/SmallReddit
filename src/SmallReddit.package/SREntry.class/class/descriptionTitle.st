@@ -1,5 +1,8 @@
 accessing metadata
 descriptionTitle
-	^(MAStringDescription selector: #title label: 'Title' priority: 10) 
-		beRequired; 
-		yourself
+	^ MAStringDescription new
+			accessor: #title;
+			label: 'Title';
+			priority: 10;
+			beRequired;
+			yourself

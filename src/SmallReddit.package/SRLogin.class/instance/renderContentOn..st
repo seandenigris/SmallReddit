@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html 
-	html heading: 'Login' level: 1.
+	html heading level: 1; with: 'Login'.
 	super renderContentOn: html.
 	html
 		form: [self renderField: #userName on: html.

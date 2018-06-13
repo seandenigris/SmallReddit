@@ -1,3 +1,3 @@
 validation
 errors
-	^errors ifNil: [errors := Set new]
+	^ errors ifNil: [ errors := Set new ]
