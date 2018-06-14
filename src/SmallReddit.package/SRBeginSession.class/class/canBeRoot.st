@@ -1,4 +1,4 @@
-initialization
+testing
 canBeRoot
 	"See comment in overridden method"
 	^ true
